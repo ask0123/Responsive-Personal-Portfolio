@@ -1,2 +1,2 @@
 
-![Thumbnail Description]("D:\personal-portfolio\assets\Screenshot 2024-11-09 212500.png")
+![Thumbnail Description]("Screenshot 2024-11-09 212500.png")

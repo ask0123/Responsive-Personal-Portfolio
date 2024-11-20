@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Kashid's Portfolio</title>
+    <link rel="icon" href="assets/profile.jpg" type="image/jpeg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="\style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div id="loader-wrapper">
+        <div class="container">
+            <div class="upper" data-aos="fade-up" data-aos-duration="2000">Hello Everyone!</div>
+            <div class="lower" style="font-size: 18px;" data-aos="fade-up" data-aos-duration="2000">Welcome to my portfolio.</div>
+            <div class="inside" data-aos="fade-up" data-aos-duration="2000">I hope you enjoy exploring my work—have a great day!</div>
+         </div>
+    </div>      
+    <div>
+        <div id="main-content" class="hidden"></div>
+         
+        <div class="background-animation">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+        <div class="content-wrapper">
+
+
+
+    <nav id="desktop-nav">
+        <div class="logo">Akash Kashid</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i id="theme-toggle" class="fas fa-moon" style="cursor: pointer; font-size: 24px; margin-top: 5px"></i>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Akash Kashid</div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="profile">
+        <div class="section__pic-container">
+            <div class="profile-wrapper">
+                <img decoding="async" id="profile1" src="assets/profile.jpg" alt="Akash Kashid's profile picture" title="Akash Kashid" />
+                <div class="animated-border"></div>
+            </div>
+        </div>
+    
+
+
+        <div class="section__text">
+            <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm </h1>
+            <h1 class="title">Akash Kashid</h1>
+
+            
+            <h3 class="home__subtitle">
+                and I'm <span class="auto-input"></span>
+            </h3><br>
+            
+            
+            <div class="btn-container">
+                <a href="#contact">
+                    <button class="btn btn-color-1">Contact Me</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1gYbxVvfjZHEI3_8jZOagbE4LWXWf_W50/view" download target="_blank">
+                    <button class="btn btn-color-2">Download Resume</button>
+                </a>
+                <style>
+                .home_title {
+                    font-weight: normal;
+                }
+            </style>
+                
+            </div>
+            <div id="socials-container">
+                <a target="_blank" href="https://www.linkedin.com/in/akash-kashid-843715208/" rel="noopener">
+                    <img decoding="async" src="assets\linkedin logo.webp" alt="My LinkedIn profile" class="icon" />
+                </a>
+                <a target="_blank" href="https://github.com/ask0123" rel="noopener">
+                    <img decoding="async" src="assets\github-1.png" alt="My Github profile" class="icon" />
+                </a>
+                
+            </div>
+            
+        </div>
+    </section>
+    <div class="animated-line"></div> 
+<!----------------------------------------------------------------------------------------------------------->
+
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title" id="aboutTitle">About Me</h1>
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img decoding="async" src="./assets/expei.png" alt="Experience icon" class="icon" />
+                    <h3>Educational Experience</h3>
+                    <p>9+ months <br />Frontend/Backend Development <br>Java Development</p>
+                </div>
+                <div class="details-container">
+                    <img decoding="async" src="./assets/education.png" alt="Education icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>Bachelor of Technology <br/> Computer Science Engineering <br> CGPA 8.00 </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p style="text-align: justify;">
+                    I'm <span class="highlight">Software Developer</span> from India, I build apps with a focus on
+                    <span class="highlight">JavaScript React & Java</span> considering all the aspects of <span class="highlight">UI/UX</span>. 
+                    Expertise 
+                    in building <span class="highlight">RESTful APIs</span>, managing databases like <span class="highlight">MySQL</span>, and delivering solutions using front-end technologies such as HTML, CSS, 
+                    and JavaScript. Skilled in  <span class="highlight">Agile methodologies, SDLC</span> practices and Supply Chain, with a strong ability to collaborate on cross-functional 
+                    teams to deliver data-driven software solutions.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="animated-line"></div> 
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------->
+   
+     
+    
+        <style>
+           
+            .experience {
+                padding: 40px 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .subtitle {
+                text-align: center;
+                color: #555;
+                margin-bottom: 8px;
+            }
+            
+            .title {
+                text-align: center;
+                font-size: 2.5rem;
+                font-weight: bold;
+                margin-bottom: 40px;
+            }
+            
+            .skills-container {
+                display: flex;
+                gap: 40px;
+            }
+            
+            .column {
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+            
+            .web-dev {
+                flex: 1;
+            }
+            
+            .tools {
+                flex: 2;
+            }
+            
+            .column-title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 25px;
+                text-align: center;
+            }
+            
+            .tools-grid {
+                display: flex;
+                gap: 30px;
+            }
+            
+            .tools-column {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .skill-item {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .checkmark {
+                color: #28a745;
+                font-size: 1.2rem;
+            }
+            
+            .skill-info h3 {
+                font-weight: 600;
+                margin-bottom: 4px;
+            }
+            
+            .skill-info p {
+                color: #666;
+                font-size: 0.9rem;
+            }
+            
+        
+            @media (max-width: 768px) {
+                .skills-container {
+                    flex-direction: column;
+                }
+            
+                .tools-grid {
+                    flex-direction: column;
+                }
+            
+                .column {
+                    width: 100%;
+                }
+            }
+    
+            
+            body {
+                min-height: 150vh;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="experience">
+            <p class="subtitle" data-aos="fade-up" data-aos-mirror="true">Explore My</p>
+            <h1 class="title" data-aos="fade-up" data-aos-delay="100" data-aos-mirror="true">Experience</h1>
+            
+            <div class="skills-container">
+                <div class="column web-dev">
+                    <h2 class="column-title">Web Development</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                                <h3>HTML5</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>CSS3</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>JavaScript</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>BootStrap</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true"> 
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>Java</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>ReactJS</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>MySQL</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>SpringBoot</h3>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true"> 
+                            <span class="checkmark">✓</span>
+                            <div class="skill-info">
+                                <h3>NodeJs</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Development Tools - -->
+                <div class="column tools" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                    <h2 class="column-title">Development Tools & Softwares</h2>
+                    <div class="tools-grid">
+                       
+                        <div class="tools-column" data-aos="fade-down" data-aos-duration="1000" data-aos-mirror="true">
+                            <div class="skill-item" data-aos="fade-down" data-aos-delay="100" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Git</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-up" data-aos-delay="200" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>GitHub</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-down" data-aos-delay="300" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Figma</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-up" data-aos-delay="400" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Canva</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-down" data-aos-delay="400" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Maven</h3>
+                                </div>
+                            </div>
+                        </div>
+                
+                     
+                        <div class="tools-column" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                            <div class="skill-item" data-aos="fade-left" data-aos-delay="100" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>VS Code</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-right" data-aos-delay="200" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Tableau</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-left" data-aos-delay="300" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>PowerBI</h3>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-aos="fade-right" data-aos-delay="400" data-aos-mirror="true">
+                                <span class="checkmark">✓</span>
+                                <div class="skill-info">
+                                    <h3>Postman</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div class="animated-line"></div> 
+<!------------------------------------------------------------------------------------------------------------->
+    
+<section id="projects">
+    <p class="section__text__p1" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">Browse My Recent</p>
+    <h1 class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-mirror="true">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <!-- Employee Leave Management - Right to Left -->
+            <div class="details-container color-container" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                <div class="article-container">
+                    <img decoding="async" src="assets\emp.png" alt="Project 1" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Employee Leave Management System</h2>
+                <div class="btn-container">
+                    <a target="_blank" href="https://github.com/" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">Github</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- AK Fitness - Bottom to Top -->
+            <div class="details-container color-container" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+                <div class="article-container">
+                    <img decoding="async" src="assets\gym.png" alt="Project 2" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">AK Fitness -Responsive Gym Website </h2>
+                <div class="btn-container">
+                    <a href="https://github.com/nikhilkamble02/" target="_blank" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">Github</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Smart Education - Left to Right -->
+            <div class="details-container color-container" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                <div class="article-container">
+                    <img decoding="async" src="assets\smartedu.jpg" alt="Project 3" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Smart Education Using AR-VR </h2>
+                <div class="btn-container">
+                    <a href="https://github.com/" target="_blank" rel="noopener">
+                        <button class="btn btn-color-2 project-btn">Github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="animated-line"></div> 
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+    <section id="blogs">
+        <p class="section__text__p1">Have a Look on My Recent</p>
+        <h1 class="title">Publications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    
+                    <div class="article-container">
+                        <img decoding="async" src="assets\irjmets.png" alt="IRJMETS" class="blog-img" />
+                    </div>
+                    
+                    <h2 class="experience-sub-title project-title">
+                        <span class="word from-top" style="--delay: 1">"SMART</span>
+                        <span class="word from-right" style="--delay: 2">EDUCATION</span>
+                        <span class="word from-left" style="--delay: 3">USING</span>
+                        <span class="word from-top" style="--delay: 4">AR</span>
+                        <span class="word from-right" style="--delay: 5">VR:</span>
+                        <span class="word from-bottom" style="--delay: 6">REVOLUTIONIZING</span>
+                        <span class="word from-left" style="--delay: 7">LEARNING</span>
+                        <span class="word from-top" style="--delay: 8">THROUGH</span>
+                        <span class="word from-right" style="--delay: 9">IMMERSIVE</span>
+                        <span class="word from-bottom" style="--delay: 10">EXPERIENCES"</span>
+                      </h2>
+                    
+
+                    <div class="btn-container">
+                        <a target="_blank" href="https://drive.google.com/file/d/1vYV065Zuc9Wh41QBB2-Z7I3zHxiWj_pa/view?usp=sharing" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">Read</button>
+                        </a>
+                    
+                        <a target="_blank" href="https://drive.google.com/file/d/1C2GlJRGS1B4do2fs6biob_bP-vg-PqnB/view?usp=sharing" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">Certificate</button>
+                        </a>
+                </div>
+                
+       
+    </section>
+    <div class="animated-line"></div> 
+<!----------------------------------------------------------------------------------------------------------------------------------------------->
+
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-containerCON">
+        <div class="contact-info-container" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+            <img decoding="async" src="assets/email-logo-png-13.png" alt="Email icon" class="icon contact-icon email-icon" />
+            <p><a href="mailto:akashkashid8326@gmail.com">akashkashid8326@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container" data-aos="fade-up" data-aos-duration="1000" data-aos-mirror="true">
+            <img decoding="async" src="assets/80805_linkedin-logo-white-png.png" alt="LinkedIn icon" class="icon contact-icon" />
+            <p><a target="_blank" href="https://www.linkedin.com/in/akash-kashid-843715208/" rel="noopener">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+            <img decoding="async" src="assets/caller.png" alt="Phone icon" class="icon contact-icon" />
+            <p><a href="tel:+917620529916">+91 7620529916</a></p>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+        <p>Copyright &#169; 2024 @Akash Kashid. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</div>
+</body>
+</html>
